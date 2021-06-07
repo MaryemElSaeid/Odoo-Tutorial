@@ -19,3 +19,4 @@ class Itinew(http.Controller):
         return http.request.render('itinew.object', {
             'object': obj
         })
+

@@ -10,7 +10,7 @@ class Order(models.Model):
     partner = fields.Many2one('res.partner')
     timestamp = fields.Datetime()
     
-
+    
     # price2 = fields.Float(compute="compute_value", store=True)
 
     # @api.onchange('unit_price')

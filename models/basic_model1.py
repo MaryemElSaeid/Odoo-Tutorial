@@ -1,5 +1,6 @@
 from odoo import models, fields, api
 
+
 class itinew(models.Model):
     _name = 'itinew.basic.model1'
     _description = 'itinew.itinew'
@@ -11,3 +12,7 @@ class itinew(models.Model):
     timestamp = fields.Datetime()
     model_2 = fields.One2many('itinew.basic.model2','model1')
 
+
+    
+
+   
